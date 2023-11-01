@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./main-css/style.css">
+    <script defer src="./main-js/app.js"></script>
+    <script defer src="./main-js/lista.js"></script>
+    <title>App mis postrecitos</title>
+</head>
+<body>
+    <!-- barra de navegacion -->
+    <nav class="main-nav">
+     
+      <ul class="bar">
+        <a class="inactive" href="./key-menu.html"> claves </a>
+        <a class="active" href="./keys.html"> claves </a>
+      </ul>
+    </nav>
+    <!-- titulo principal   -->
+    
+    <h1 class="main-title"> mis recetas </h1>
+   
+    <div class="error error1">
+        <span> Error: dato no encontrado, <br> intenta de nuevo  </span>
+
+        <div class="boton-hide"> 
+            <button> aceptar </button>
+        </div>
+        
+    </div>
+
+    <!-- entrada de busqueda principal input -->
+    <input type="text"  class="search-error" id="search-input" onkeyup="mayus(this);" placeholder="Ingresa tu busqueda" required minlength="2" maxlength="1000" 
+    required>
+
+    <button class="buscar"> buscar </button>
+
+     <!-- contenedor de las card donde se insertan los resultados  -->
+    <div class="container-card">
+        <div class="card" id="search-card-1"> producto </div>
+        <div class="card" id="search-card-2" style="color:rgb(24, 233, 24)"> **** </div>
+
+        <div class="card" id="search-card-3"> ingrediente </div>
+        <div class="card" id="search-card-4" style="color:rgb(24, 233, 24)"> **** </div>
+    
+       
+    </div>
+   
+</body>
+
+</html>
