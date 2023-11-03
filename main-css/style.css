@@ -101,16 +101,6 @@ H3 {
     z-index: 1;
 }
 
-.icon2 {
-    position: absolute;
-    left: 118rem;
-    height: 50px;
-    width: 50px;
-    top: 32rem;
-    cursor: pointer;
-    opacity: .8;
-}
-
 /*texto dentro del input */
 ::placeholder {
     color: #D8DAE5;
@@ -122,10 +112,10 @@ H3 {
 }
 /* contenedor de las card */
 .container-card {
-    display: flex;
+    display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 10px;
-    grid-auto-rows: 50px ;
+    grid-auto-rows: 150px ;
     padding-top: 20px;
 }
 
