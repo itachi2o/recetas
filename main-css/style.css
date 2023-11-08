@@ -61,8 +61,8 @@ a {
     text-transform: uppercase;
     letter-spacing: 0.5rem;
     text-align: center;
-    color: #D8DAE5;
-    text-shadow: #13bfd6 0px 0px 10px;
+    color: #cd0af0;
+    text-shadow: #13bfd6 10px 0px 10px;
     height: 200px;
     width: 100%;
 }
@@ -73,7 +73,7 @@ H3 {
     text-transform: uppercase;
     letter-spacing: 0.5rem;
     text-align: center;
-    color: #D8DAE5;
+    color: #0bf52e;
     text-shadow: #13bfd6 0px 0px 10px;
 }
 /* barra de ingreso de datos input */
