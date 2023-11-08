@@ -112,7 +112,7 @@ H3 {
 }
 /* contenedor de las card */
 .container-card {
-    display: grid;
+    display: flex;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 10px;
     grid-auto-rows: 180px ;
